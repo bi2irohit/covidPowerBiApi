@@ -1,1 +1,1 @@
-web: gunicorn wsgi:covidPowerBiApi
+web: gunicorn wsgi:app
