@@ -1,1 +1,1 @@
-web: gunicorn covidPowerBiApi:covidPowerBiApi
+web: gunicorn wsgi:covidPowerBiApi
