@@ -18,20 +18,23 @@ def world():
     jsonData = makeWorldData()
     return jsonData
 
-# @app.route('/covid19PowerBi/country')
-# def country():
-#     jsonData = covidMain.makeCountryData()
-#     return jsonData
+@app.route('/covid19PowerBi/country')
+def country():
+    # jsonData = covidMain.makeCountryData()
+    jsonData = makeCountryData()
+    return jsonData
 
-# @app.route('/covid19PowerBi/india')
-# def india():
-#     jsonData = covidMain.makeIndiaData()
-#     return jsonData
+@app.route('/covid19PowerBi/india')
+def india():
+    # jsonData = covidMain.makeIndiaData()
+    jsonData = makeIndiaData()
+    return jsonData
 
-# @app.route('/covid19PowerBi/indiaStates')
-# def indiaStates():
-#     jsonData = covidMain.makeIndiaStateData()
-#     return jsonData            
+@app.route('/covid19PowerBi/indiaStates')
+def indiaStates():
+    # jsonData = covidMain.makeIndiaStateData()
+    jsonData = makeIndiaStateData()
+    return jsonData            
 
 if __name__ == '__main__':
     # app.run(host = '0.0.0.0',port = 4000, debug = True)
