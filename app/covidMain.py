@@ -28,8 +28,8 @@ from app.modules.covidUtils import *
 # # Defining Required Variables
 
 logging.info('''Defining Variables''')
-mainPath = './data/'
-outputDataPath = './outputData/'
+mainPath = 'app/data/'
+outputDataPath = 'app/outputData/'
 metricList = ['confirmed', 'recovered', 'deaths']
 maxDateDict = {}
 linesDict = {}
