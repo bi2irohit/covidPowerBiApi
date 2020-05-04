@@ -14,7 +14,8 @@ def hello():
 
 @app.route('/covid19PowerBi/world')
 def world():
-    jsonData = covidMain.makeWorldData()
+    # jsonData = covidMain.makeWorldData()
+    jsonData = makeWorldData()
     return jsonData
 
 # @app.route('/covid19PowerBi/country')
