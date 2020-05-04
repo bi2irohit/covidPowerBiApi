@@ -22,21 +22,25 @@ logging.info('''Importing Libraries''')
 
 
 logging.info('''Importing Custom Modules''')
+# from modules.covidUtils import *
 from app.modules.covidUtils import *
 
 
 # # Defining Required Variables
 
 logging.info('''Defining Variables''')
-mainPath = 'app/data/'
+mainPath = './data/'
 outputDataPath = 'app/outputData/'
 metricList = ['confirmed', 'recovered', 'deaths']
 maxDateDict = {}
 linesDict = {}
 
-countryLatLongCsvName = 'countryLatLong.csv'
-countryMappingGoogleName = 'countryMappingGoogle.csv'
-indiaStateMappingName = 'indiaStateMapping.csv'
+# countryLatLongCsvName = 'countryLatLong.csv'
+countryLatLongCsvName = 'https://raw.githubusercontent.com/bi2irohit/covidPowerBiApi/master/app/data/countryLatLong.csv'
+# countryMappingGoogleName = 'countryMappingGoogle.csv'
+countryMappingGoogleName = 'https://raw.githubusercontent.com/bi2irohit/covidPowerBiApi/master/app/data/countryMappingGoogle.csv'
+# indiaStateMappingName = 'indiaStateMapping.csv'
+indiaStateMappingName = 'https://raw.githubusercontent.com/bi2irohit/covidPowerBiApi/master/app/data/indiaStateMapping.csv'
 
 worldDataUrl = 'https://pomber.github.io/covid19/timeseries.json'
 indiaDataUrl = 'https://api.rootnet.in/covid19-in/stats/history'
@@ -45,8 +49,8 @@ indiaDataUrl = 'https://api.rootnet.in/covid19-in/stats/history'
 # # Pulling Local Data
 
 logging.info('''Pulling Local Data''')
-# dfLatLong = pd.read_csv(mainPath + countryLatLongCsvName)
-dfLatLong = pd.read_csv(countryLatLongCsvName)
+dfLatLong = pd.read_csv(mainPath + countryLatLongCsvName)
+# dfLatLong = pd.read_csv(countryLatLongCsvName)
 # logging.info(dfLatLong.shape)
 
 '''Making a dictionary of country mapping to standardize country names'''
@@ -62,8 +66,8 @@ for obj in dfCountryMappingGoogle.to_dict(orient = 'records'):
 # countryMappingGoogleDict  
 
 '''Making a dictionary of country mapping to standardize country names'''
-# dfindiaStateMapping = pd.read_csv(mainPath + indiaStateMappingName)
-dfindiaStateMapping = pd.read_csv(indiaStateMappingName)
+dfindiaStateMapping = pd.read_csv(mainPath + indiaStateMappingName)
+# dfindiaStateMapping = pd.read_csv(indiaStateMappingName)
 # logging.info(dfindiaStateMapping.shape)
 
 indiaStateMappingDict = {}

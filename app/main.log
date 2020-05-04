@@ -298,3 +298,103 @@ INFO:root:World - Country
 INFO:root:India
 INFO:root:India - State
 INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 15:03:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 15:03:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
