@@ -29,4 +29,4 @@ def indiaStates():
     return jsonData            
 
 if __name__ == '__main__':
-    app.run(port = 8282)
+    app.run()
