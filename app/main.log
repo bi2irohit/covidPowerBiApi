@@ -1,0 +1,300 @@
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Pulling Data from APIs
+INFO:root:Pulling World Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Pulling India Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:<Response [200]>
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Pulling Data from APIs
+INFO:root:Pulling World Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Pulling India Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:<Response [200]>
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Pulling Data from APIs
+INFO:root:Pulling World Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Pulling India Data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:<Response [200]>
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:Ran for 23 times
+INFO:root:00 min 03 sec
+INFO:root:India
+INFO:root:India - State
+INFO:root:Ran for 11 times
+INFO:root:00 min 00 sec
+INFO:root:Email sent!
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 11:55:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 11:55:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 11:55:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:02:47] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:03:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:03:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:07:47] "[37mGET /country HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:07:52] "[37mGET /country HTTP/1.1[0m" 200 -
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Ran for 23 times
+INFO:root:00 min 03 sec
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:08:12] "[37mGET /country HTTP/1.1[0m" 200 -
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:13:05] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:13:11] "[37mGET /world HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): pomber.github.io:443
+DEBUG:urllib3.connectionpool:https://pomber.github.io:443 "GET /covid19/timeseries.json HTTP/1.1" 200 106110
+INFO:root:<Response [200]>
+INFO:root:Ran for 23 times
+INFO:root:00 min 03 sec
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:13:23] "[37mGET /country HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:13:31] "[37mGET /india HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:Ran for 11 times
+INFO:root:00 min 00 sec
+ERROR:main:Exception on /indiaStates [GET]
+Traceback (most recent call last):
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 29, in indiaStates
+    jsonData = covidMain.makeIndiaStateData()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/covidMain.py", line 586, in makeIndiaStateData
+    jsonData = convertDfToJson(dfIndiaGoogle, 'records')
+NameError: name 'dfIndiaGoogle' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:13:42] "[35m[1mGET /indiaStates HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:Ran for 11 times
+INFO:root:00 min 00 sec
+ERROR:main:Exception on /indiaStates [GET]
+Traceback (most recent call last):
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/covidEnv/lib/python3.5/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 29, in indiaStates
+    jsonData = covidMain.makeIndiaStateData()
+  File "/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/covidMain.py", line 586, in makeIndiaStateData
+    jsonData = convertDfToJson(dfIndiaGoogle, 'records')
+NameError: name 'dfIndiaGoogle' is not defined
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:14:06] "[35m[1mGET /indiaStates HTTP/1.1[0m" 500 -
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:26] "[37mGET /india HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:47] "[35m[1mGET /indiaStates HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:47] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:47] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:47] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:48] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:16:48] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:Ran for 11 times
+INFO:root:00 min 00 sec
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[35m[1mGET /indiaStates HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:17:32] "[37mGET /indiaStates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/covidMain.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 286-078-066
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.rootnet.in:443
+DEBUG:urllib3.connectionpool:https://api.rootnet.in:443 "GET /covid19-in/stats/history HTTP/1.1" 200 None
+INFO:root:Ran for 11 times
+INFO:root:00 min 00 sec
+INFO:werkzeug:127.0.0.1 - - [04/May/2020 12:18:02] "[37mGET /indiaStates HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/home/rohit/Documents/04_git_repos/covidPowerBiApi/app/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:root:Importing Libraries
+INFO:root:Importing Custom Modules
+INFO:root:Defining Variables
+INFO:root:Pulling Local Data
+INFO:root:Making Required Dataframes from the Json
+INFO:root:World
+INFO:root:World - Country
+INFO:root:India
+INFO:root:India - State
+INFO:werkzeug: * Running on http://127.0.0.1:8282/ (Press CTRL+C to quit)
