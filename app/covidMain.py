@@ -22,7 +22,7 @@ logging.info('''Importing Libraries''')
 
 
 logging.info('''Importing Custom Modules''')
-from modules.covidUtils import *
+from app.modules.covidUtils import *
 
 
 # # Defining Required Variables
