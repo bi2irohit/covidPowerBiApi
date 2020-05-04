@@ -1,5 +1,5 @@
 from flask import Flask
-import covidMain
+import .covidMain
 
 # Initialize application
 app = Flask(__name__)
