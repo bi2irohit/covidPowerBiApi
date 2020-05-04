@@ -1,6 +1,6 @@
 from flask import Flask
 # import covidMain
-import app.covidMain
+from app.covidMain import *
 
 # Initialize application
 app = Flask(__name__)
