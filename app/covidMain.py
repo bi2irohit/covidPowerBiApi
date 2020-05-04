@@ -49,8 +49,8 @@ indiaDataUrl = 'https://api.rootnet.in/covid19-in/stats/history'
 # # Pulling Local Data
 
 logging.info('''Pulling Local Data''')
-dfLatLong = pd.read_csv(mainPath + countryLatLongCsvName)
-# dfLatLong = pd.read_csv(countryLatLongCsvName)
+# dfLatLong = pd.read_csv(mainPath + countryLatLongCsvName)
+dfLatLong = pd.read_csv(countryLatLongCsvName)
 # logging.info(dfLatLong.shape)
 
 '''Making a dictionary of country mapping to standardize country names'''
@@ -66,8 +66,8 @@ for obj in dfCountryMappingGoogle.to_dict(orient = 'records'):
 # countryMappingGoogleDict  
 
 '''Making a dictionary of country mapping to standardize country names'''
-dfindiaStateMapping = pd.read_csv(mainPath + indiaStateMappingName)
-# dfindiaStateMapping = pd.read_csv(indiaStateMappingName)
+# dfindiaStateMapping = pd.read_csv(mainPath + indiaStateMappingName)
+dfindiaStateMapping = pd.read_csv(indiaStateMappingName)
 # logging.info(dfindiaStateMapping.shape)
 
 indiaStateMappingDict = {}
